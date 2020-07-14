@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		147F7CEA24BCDF7A00D0F684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F7CE924BCDF7A00D0F684 /* AppDelegate.swift */; };
+		147F7CEC24BCDF7A00D0F684 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F7CEB24BCDF7A00D0F684 /* SceneDelegate.swift */; };
+		147F7CEE24BCDF7A00D0F684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F7CED24BCDF7A00D0F684 /* ViewController.swift */; };
+		147F7CF124BCDF7A00D0F684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147F7CEF24BCDF7A00D0F684 /* Main.storyboard */; };
+		147F7CF424BCDF7A00D0F684 /* invictus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 147F7CF224BCDF7A00D0F684 /* invictus.xcdatamodeld */; };
+		147F7CF624BCDF7C00D0F684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147F7CF524BCDF7C00D0F684 /* Assets.xcassets */; };
+		147F7CF924BCDF7C00D0F684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147F7CF724BCDF7C00D0F684 /* LaunchScreen.storyboard */; };
+		147F7D0424BCDF7C00D0F684 /* invictusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F7D0324BCDF7C00D0F684 /* invictusTests.swift */; };
+		147F7D0F24BCDF7D00D0F684 /* invictusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F7D0E24BCDF7D00D0F684 /* invictusUITests.swift */; };
+		147F7D1D24BCE50100D0F684 /* WelcomeScreen_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F7D1C24BCE50100D0F684 /* WelcomeScreen_ViewController.swift */; };
+		147F7D1F24BCE57400D0F684 /* AboutUs_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F7D1E24BCE57400D0F684 /* AboutUs_ViewController.swift */; };
+		147F7D2124BCF4B000D0F684 /* AboutUs2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F7D2024BCF4B000D0F684 /* AboutUs2_ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147F7D0024BCDF7C00D0F684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147F7CDE24BCDF7A00D0F684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 147F7CE524BCDF7A00D0F684;
+			remoteInfo = invictus;
+		};
+		147F7D0B24BCDF7D00D0F684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147F7CDE24BCDF7A00D0F684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 147F7CE524BCDF7A00D0F684;
+			remoteInfo = invictus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		147F7CE624BCDF7A00D0F684 /* invictus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = invictus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		147F7CE924BCDF7A00D0F684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		147F7CEB24BCDF7A00D0F684 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		147F7CED24BCDF7A00D0F684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		147F7CF024BCDF7A00D0F684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		147F7CF324BCDF7A00D0F684 /* invictus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = invictus.xcdatamodel; sourceTree = "<group>"; };
+		147F7CF524BCDF7C00D0F684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		147F7CF824BCDF7C00D0F684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		147F7CFA24BCDF7C00D0F684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147F7CFF24BCDF7C00D0F684 /* invictusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = invictusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		147F7D0324BCDF7C00D0F684 /* invictusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invictusTests.swift; sourceTree = "<group>"; };
+		147F7D0524BCDF7C00D0F684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147F7D0A24BCDF7D00D0F684 /* invictusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = invictusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		147F7D0E24BCDF7D00D0F684 /* invictusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invictusUITests.swift; sourceTree = "<group>"; };
+		147F7D1024BCDF7D00D0F684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147F7D1C24BCE50100D0F684 /* WelcomeScreen_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen_ViewController.swift; sourceTree = "<group>"; };
+		147F7D1E24BCE57400D0F684 /* AboutUs_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs_ViewController.swift; sourceTree = "<group>"; };
+		147F7D2024BCF4B000D0F684 /* AboutUs2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs2_ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		147F7CE324BCDF7A00D0F684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F7CFC24BCDF7C00D0F684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F7D0724BCDF7D00D0F684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147F7CDD24BCDF7A00D0F684 = {
+			isa = PBXGroup;
+			children = (
+				147F7CE824BCDF7A00D0F684 /* invictus */,
+				147F7D0224BCDF7C00D0F684 /* invictusTests */,
+				147F7D0D24BCDF7D00D0F684 /* invictusUITests */,
+				147F7CE724BCDF7A00D0F684 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		147F7CE724BCDF7A00D0F684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				147F7CE624BCDF7A00D0F684 /* invictus.app */,
+				147F7CFF24BCDF7C00D0F684 /* invictusTests.xctest */,
+				147F7D0A24BCDF7D00D0F684 /* invictusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		147F7CE824BCDF7A00D0F684 /* invictus */ = {
+			isa = PBXGroup;
+			children = (
+				147F7CE924BCDF7A00D0F684 /* AppDelegate.swift */,
+				147F7CEB24BCDF7A00D0F684 /* SceneDelegate.swift */,
+				147F7CED24BCDF7A00D0F684 /* ViewController.swift */,
+				147F7D1C24BCE50100D0F684 /* WelcomeScreen_ViewController.swift */,
+				147F7D1E24BCE57400D0F684 /* AboutUs_ViewController.swift */,
+				147F7D2024BCF4B000D0F684 /* AboutUs2_ViewController.swift */,
+				147F7CEF24BCDF7A00D0F684 /* Main.storyboard */,
+				147F7CF524BCDF7C00D0F684 /* Assets.xcassets */,
+				147F7CF724BCDF7C00D0F684 /* LaunchScreen.storyboard */,
+				147F7CFA24BCDF7C00D0F684 /* Info.plist */,
+				147F7CF224BCDF7A00D0F684 /* invictus.xcdatamodeld */,
+			);
+			path = invictus;
+			sourceTree = "<group>";
+		};
+		147F7D0224BCDF7C00D0F684 /* invictusTests */ = {
+			isa = PBXGroup;
+			children = (
+				147F7D0324BCDF7C00D0F684 /* invictusTests.swift */,
+				147F7D0524BCDF7C00D0F684 /* Info.plist */,
+			);
+			path = invictusTests;
+			sourceTree = "<group>";
+		};
+		147F7D0D24BCDF7D00D0F684 /* invictusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				147F7D0E24BCDF7D00D0F684 /* invictusUITests.swift */,
+				147F7D1024BCDF7D00D0F684 /* Info.plist */,
+			);
+			path = invictusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		147F7CE524BCDF7A00D0F684 /* invictus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147F7D1324BCDF7D00D0F684 /* Build configuration list for PBXNativeTarget "invictus" */;
+			buildPhases = (
+				147F7CE224BCDF7A00D0F684 /* Sources */,
+				147F7CE324BCDF7A00D0F684 /* Frameworks */,
+				147F7CE424BCDF7A00D0F684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = invictus;
+			productName = invictus;
+			productReference = 147F7CE624BCDF7A00D0F684 /* invictus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		147F7CFE24BCDF7C00D0F684 /* invictusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147F7D1624BCDF7D00D0F684 /* Build configuration list for PBXNativeTarget "invictusTests" */;
+			buildPhases = (
+				147F7CFB24BCDF7C00D0F684 /* Sources */,
+				147F7CFC24BCDF7C00D0F684 /* Frameworks */,
+				147F7CFD24BCDF7C00D0F684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147F7D0124BCDF7C00D0F684 /* PBXTargetDependency */,
+			);
+			name = invictusTests;
+			productName = invictusTests;
+			productReference = 147F7CFF24BCDF7C00D0F684 /* invictusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		147F7D0924BCDF7D00D0F684 /* invictusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147F7D1924BCDF7D00D0F684 /* Build configuration list for PBXNativeTarget "invictusUITests" */;
+			buildPhases = (
+				147F7D0624BCDF7D00D0F684 /* Sources */,
+				147F7D0724BCDF7D00D0F684 /* Frameworks */,
+				147F7D0824BCDF7D00D0F684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147F7D0C24BCDF7D00D0F684 /* PBXTargetDependency */,
+			);
+			name = invictusUITests;
+			productName = invictusUITests;
+			productReference = 147F7D0A24BCDF7D00D0F684 /* invictusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147F7CDE24BCDF7A00D0F684 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ana Carvalho";
+				TargetAttributes = {
+					147F7CE524BCDF7A00D0F684 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					147F7CFE24BCDF7C00D0F684 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 147F7CE524BCDF7A00D0F684;
+					};
+					147F7D0924BCDF7D00D0F684 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 147F7CE524BCDF7A00D0F684;
+					};
+				};
+			};
+			buildConfigurationList = 147F7CE124BCDF7A00D0F684 /* Build configuration list for PBXProject "invictus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 147F7CDD24BCDF7A00D0F684;
+			productRefGroup = 147F7CE724BCDF7A00D0F684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				147F7CE524BCDF7A00D0F684 /* invictus */,
+				147F7CFE24BCDF7C00D0F684 /* invictusTests */,
+				147F7D0924BCDF7D00D0F684 /* invictusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		147F7CE424BCDF7A00D0F684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F7CF924BCDF7C00D0F684 /* LaunchScreen.storyboard in Resources */,
+				147F7CF624BCDF7C00D0F684 /* Assets.xcassets in Resources */,
+				147F7CF124BCDF7A00D0F684 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F7CFD24BCDF7C00D0F684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F7D0824BCDF7D00D0F684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147F7CE224BCDF7A00D0F684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F7D1F24BCE57400D0F684 /* AboutUs_ViewController.swift in Sources */,
+				147F7CEE24BCDF7A00D0F684 /* ViewController.swift in Sources */,
+				147F7CEA24BCDF7A00D0F684 /* AppDelegate.swift in Sources */,
+				147F7D2124BCF4B000D0F684 /* AboutUs2_ViewController.swift in Sources */,
+				147F7CF424BCDF7A00D0F684 /* invictus.xcdatamodeld in Sources */,
+				147F7D1D24BCE50100D0F684 /* WelcomeScreen_ViewController.swift in Sources */,
+				147F7CEC24BCDF7A00D0F684 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F7CFB24BCDF7C00D0F684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F7D0424BCDF7C00D0F684 /* invictusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147F7D0624BCDF7D00D0F684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F7D0F24BCDF7D00D0F684 /* invictusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		147F7D0124BCDF7C00D0F684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 147F7CE524BCDF7A00D0F684 /* invictus */;
+			targetProxy = 147F7D0024BCDF7C00D0F684 /* PBXContainerItemProxy */;
+		};
+		147F7D0C24BCDF7D00D0F684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 147F7CE524BCDF7A00D0F684 /* invictus */;
+			targetProxy = 147F7D0B24BCDF7D00D0F684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		147F7CEF24BCDF7A00D0F684 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147F7CF024BCDF7A00D0F684 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		147F7CF724BCDF7C00D0F684 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147F7CF824BCDF7C00D0F684 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		147F7D1124BCDF7D00D0F684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		147F7D1224BCDF7D00D0F684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147F7D1424BCDF7D00D0F684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 685DJQ467Y;
+				INFOPLIST_FILE = invictus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.invictus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		147F7D1524BCDF7D00D0F684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 685DJQ467Y;
+				INFOPLIST_FILE = invictus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.invictus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		147F7D1724BCDF7D00D0F684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 685DJQ467Y;
+				INFOPLIST_FILE = invictusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.invictusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/invictus.app/invictus";
+			};
+			name = Debug;
+		};
+		147F7D1824BCDF7D00D0F684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 685DJQ467Y;
+				INFOPLIST_FILE = invictusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.invictusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/invictus.app/invictus";
+			};
+			name = Release;
+		};
+		147F7D1A24BCDF7D00D0F684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 685DJQ467Y;
+				INFOPLIST_FILE = invictusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.invictusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = invictus;
+			};
+			name = Debug;
+		};
+		147F7D1B24BCDF7D00D0F684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 685DJQ467Y;
+				INFOPLIST_FILE = invictusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.invictusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = invictus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147F7CE124BCDF7A00D0F684 /* Build configuration list for PBXProject "invictus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147F7D1124BCDF7D00D0F684 /* Debug */,
+				147F7D1224BCDF7D00D0F684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147F7D1324BCDF7D00D0F684 /* Build configuration list for PBXNativeTarget "invictus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147F7D1424BCDF7D00D0F684 /* Debug */,
+				147F7D1524BCDF7D00D0F684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147F7D1624BCDF7D00D0F684 /* Build configuration list for PBXNativeTarget "invictusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147F7D1724BCDF7D00D0F684 /* Debug */,
+				147F7D1824BCDF7D00D0F684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147F7D1924BCDF7D00D0F684 /* Build configuration list for PBXNativeTarget "invictusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147F7D1A24BCDF7D00D0F684 /* Debug */,
+				147F7D1B24BCDF7D00D0F684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		147F7CF224BCDF7A00D0F684 /* invictus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				147F7CF324BCDF7A00D0F684 /* invictus.xcdatamodel */,
+			);
+			currentVersion = 147F7CF324BCDF7A00D0F684 /* invictus.xcdatamodel */;
+			path = invictus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 147F7CDE24BCDF7A00D0F684 /* Project object */;
+}
