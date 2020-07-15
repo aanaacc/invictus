@@ -25,7 +25,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.73890066146850586" green="0.88234454393386841" blue="0.87843436002731323" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.7373498678" green="0.88237631319999998" blue="0.87814968819999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -56,7 +56,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.73890066146850586" green="0.88234454393386841" blue="0.87843436002731323" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.7373498678" green="0.88237631319999998" blue="0.87814968819999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="VhS-yq-APQ"/>
                     </view>
                     <navigationItem key="navigationItem" id="qWB-9R-DDx"/>
@@ -209,7 +209,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.65511351819999997" green="0.89413613079999998" blue="0.88174504040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.7373498678" green="0.88237631319999998" blue="0.87814968819999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Hri-EC-AEi"/>
                     </view>
                     <navigationItem key="navigationItem" id="dz9-ng-U3R"/>
@@ -239,7 +239,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.65511351819999997" green="0.89413613079999998" blue="0.88174504040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.7373498678" green="0.88237631319999998" blue="0.87814968819999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="FVK-fE-wAu"/>
                     </view>
                     <navigationItem key="navigationItem" id="XSP-lj-Sef"/>
@@ -264,7 +264,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.65511351819999997" green="0.89413613079999998" blue="0.88174504040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.7373498678" green="0.88237631319999998" blue="0.87814968819999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="H83-8k-i2e"/>
                     </view>
                     <navigationItem key="navigationItem" id="7rz-y6-Jme"/>
@@ -289,7 +289,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.65511351819999997" green="0.89413613079999998" blue="0.88174504040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.7373498678" green="0.88237631319999998" blue="0.87814968819999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="O12-Bi-3vv"/>
                     </view>
                     <navigationItem key="navigationItem" id="9la-7A-kbL"/>
