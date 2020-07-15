@@ -19,6 +19,7 @@
 		147F7D1D24BCE50100D0F684 /* WelcomeScreen_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F7D1C24BCE50100D0F684 /* WelcomeScreen_ViewController.swift */; };
 		147F7D1F24BCE57400D0F684 /* AboutUs_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F7D1E24BCE57400D0F684 /* AboutUs_ViewController.swift */; };
 		147F7D2124BCF4B000D0F684 /* AboutUs2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F7D2024BCF4B000D0F684 /* AboutUs2_ViewController.swift */; };
+		147F7D2324BE554D00D0F684 /* PickYourCity_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F7D2224BE554D00D0F684 /* PickYourCity_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		147F7D1C24BCE50100D0F684 /* WelcomeScreen_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen_ViewController.swift; sourceTree = "<group>"; };
 		147F7D1E24BCE57400D0F684 /* AboutUs_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs_ViewController.swift; sourceTree = "<group>"; };
 		147F7D2024BCF4B000D0F684 /* AboutUs2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs2_ViewController.swift; sourceTree = "<group>"; };
+		147F7D2224BE554D00D0F684 /* PickYourCity_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickYourCity_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				147F7D1C24BCE50100D0F684 /* WelcomeScreen_ViewController.swift */,
 				147F7D1E24BCE57400D0F684 /* AboutUs_ViewController.swift */,
 				147F7D2024BCF4B000D0F684 /* AboutUs2_ViewController.swift */,
+				147F7D2224BE554D00D0F684 /* PickYourCity_ViewController.swift */,
 				147F7CEF24BCDF7A00D0F684 /* Main.storyboard */,
 				147F7CF524BCDF7C00D0F684 /* Assets.xcassets */,
 				147F7CF724BCDF7C00D0F684 /* LaunchScreen.storyboard */,
@@ -274,6 +277,7 @@
 				147F7D1F24BCE57400D0F684 /* AboutUs_ViewController.swift in Sources */,
 				147F7CEE24BCDF7A00D0F684 /* ViewController.swift in Sources */,
 				147F7CEA24BCDF7A00D0F684 /* AppDelegate.swift in Sources */,
+				147F7D2324BE554D00D0F684 /* PickYourCity_ViewController.swift in Sources */,
 				147F7D2124BCF4B000D0F684 /* AboutUs2_ViewController.swift in Sources */,
 				147F7CF424BCDF7A00D0F684 /* invictus.xcdatamodeld in Sources */,
 				147F7D1D24BCE50100D0F684 /* WelcomeScreen_ViewController.swift in Sources */,
