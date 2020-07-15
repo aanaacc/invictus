@@ -20,6 +20,9 @@
 		147F7D1F24BCE57400D0F684 /* AboutUs_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F7D1E24BCE57400D0F684 /* AboutUs_ViewController.swift */; };
 		147F7D2124BCF4B000D0F684 /* AboutUs2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F7D2024BCF4B000D0F684 /* AboutUs2_ViewController.swift */; };
 		147F7D2324BE554D00D0F684 /* PickYourCity_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F7D2224BE554D00D0F684 /* PickYourCity_ViewController.swift */; };
+		14BEBE7524BFA7A400AA6970 /* wilmingtonNC_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEBE7424BFA7A400AA6970 /* wilmingtonNC_ViewController.swift */; };
+		14BEBE7724BFA7B500AA6970 /* washingtonDC_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEBE7624BFA7B500AA6970 /* washingtonDC_ViewController.swift */; };
+		14BEBE7924BFA7C400AA6970 /* savannahGA_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEBE7824BFA7C400AA6970 /* savannahGA_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		147F7D1E24BCE57400D0F684 /* AboutUs_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs_ViewController.swift; sourceTree = "<group>"; };
 		147F7D2024BCF4B000D0F684 /* AboutUs2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs2_ViewController.swift; sourceTree = "<group>"; };
 		147F7D2224BE554D00D0F684 /* PickYourCity_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickYourCity_ViewController.swift; sourceTree = "<group>"; };
+		14BEBE7424BFA7A400AA6970 /* wilmingtonNC_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wilmingtonNC_ViewController.swift; sourceTree = "<group>"; };
+		14BEBE7624BFA7B500AA6970 /* washingtonDC_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = washingtonDC_ViewController.swift; sourceTree = "<group>"; };
+		14BEBE7824BFA7C400AA6970 /* savannahGA_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savannahGA_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,9 @@
 				147F7D2024BCF4B000D0F684 /* AboutUs2_ViewController.swift */,
 				147F7D2224BE554D00D0F684 /* PickYourCity_ViewController.swift */,
 				147F7CEF24BCDF7A00D0F684 /* Main.storyboard */,
+				14BEBE7424BFA7A400AA6970 /* wilmingtonNC_ViewController.swift */,
+				14BEBE7624BFA7B500AA6970 /* washingtonDC_ViewController.swift */,
+				14BEBE7824BFA7C400AA6970 /* savannahGA_ViewController.swift */,
 				147F7CF524BCDF7C00D0F684 /* Assets.xcassets */,
 				147F7CF724BCDF7C00D0F684 /* LaunchScreen.storyboard */,
 				147F7CFA24BCDF7C00D0F684 /* Info.plist */,
@@ -277,9 +286,12 @@
 				147F7D1F24BCE57400D0F684 /* AboutUs_ViewController.swift in Sources */,
 				147F7CEE24BCDF7A00D0F684 /* ViewController.swift in Sources */,
 				147F7CEA24BCDF7A00D0F684 /* AppDelegate.swift in Sources */,
+				14BEBE7724BFA7B500AA6970 /* washingtonDC_ViewController.swift in Sources */,
 				147F7D2324BE554D00D0F684 /* PickYourCity_ViewController.swift in Sources */,
+				14BEBE7524BFA7A400AA6970 /* wilmingtonNC_ViewController.swift in Sources */,
 				147F7D2124BCF4B000D0F684 /* AboutUs2_ViewController.swift in Sources */,
 				147F7CF424BCDF7A00D0F684 /* invictus.xcdatamodeld in Sources */,
+				14BEBE7924BFA7C400AA6970 /* savannahGA_ViewController.swift in Sources */,
 				147F7D1D24BCE50100D0F684 /* WelcomeScreen_ViewController.swift in Sources */,
 				147F7CEC24BCDF7A00D0F684 /* SceneDelegate.swift in Sources */,
 			);
