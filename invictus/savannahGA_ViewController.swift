@@ -7,13 +7,22 @@
 //
 
 import UIKit
+import MapKit
 
 class savannahGA_ViewController: UIViewController {
 
+    @IBOutlet weak var savMap: MKMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let annotation = MKPointAnnotation ()
+       annotation.coordinate = CLLocationCoordinate2D (latitude: 34.2104, longitude: -77.8868)
+        annotation.title = "Welcome to DC!"
+        annotation.subtitle = "Home of Ruhe"
+        savMap.addAnnotation(annotation)
+        //Zoom in  Code
+        let region = MKCoordinateRegion(center: annotation.coordinate, latitudinalMeters: 500, longitudinalMeters: 500)
+        savMap.setRegion(region, animated: true)
     }
     
 

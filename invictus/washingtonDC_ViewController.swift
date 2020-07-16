@@ -7,13 +7,23 @@
 //
 
 import UIKit
+import MapKit
 
 class washingtonDC_ViewController: UIViewController {
 
+    @IBOutlet weak var dcMap: MKMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let annotation = MKPointAnnotation ()
+        annotation.coordinate = CLLocationCoordinate2D (latitude: 34.2104, longitude: -77.8868)
+        annotation.title = "Welcome to DC!"
+        annotation.subtitle = "Home of Ruhe"
+                dcMap.addAnnotation(annotation)
+        //Zoom in  Code
+        let region = MKCoordinateRegion(center: annotation.coordinate, latitudinalMeters: 500, longitudinalMeters: 500)
+        dcMap.setRegion(region, animated: true)
     }
     
 
