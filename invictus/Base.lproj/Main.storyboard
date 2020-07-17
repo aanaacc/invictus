@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="svQ-DS-zEc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="svQ-DS-zEc">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -407,15 +407,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BeautyLabel2" translatesAutoresizingMaskIntoConstraints="NO" id="DPt-Yi-o73">
-                                <rect key="frame" x="-61" y="401" width="565" height="340"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mob Dev Final Project-4" translatesAutoresizingMaskIntoConstraints="NO" id="4rz-gB-dRq">
-                                <rect key="frame" x="-112" y="543" width="601" height="324"/>
+                                <rect key="frame" x="-61" y="400" width="565" height="340"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mob Dev Final Project-8" translatesAutoresizingMaskIntoConstraints="NO" id="znK-P2-qbG">
-                                <rect key="frame" x="-159" y="-117" width="563" height="614"/>
+                                <rect key="frame" x="-159" y="-103" width="553" height="579"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mob Dev Final Project-4" translatesAutoresizingMaskIntoConstraints="NO" id="4rz-gB-dRq">
+                                <rect key="frame" x="-110" y="538" width="601" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -541,10 +541,6 @@
             <point key="canvasLocation" x="3632" y="854"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="B3F-M6-EC8"/>
-        <segue reference="UcV-lY-mKp"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="BeautyLabel2" width="960" height="540"/>
         <image name="IMG_7714" width="828" height="1029"/>
@@ -556,7 +552,7 @@
         <image name="aboutUsText" width="1104" height="382"/>
         <image name="aboutUsText2" width="958" height="400"/>
         <image name="allowUs" width="388" height="122"/>
-        <image name="arrow.right.circle" catalog="system" width="128" height="121"/>
+        <image name="arrow.right.circle" catalog="system" width="64" height="60"/>
         <image name="artists" width="714" height="56"/>
         <image name="backB" width="158" height="170"/>
         <image name="backButton" width="150" height="182"/>
@@ -582,4 +578,8 @@
         <image name="welcomeOrange" width="582" height="250"/>
         <image name="wilm" width="646" height="114"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="B3F-M6-EC8"/>
+        <segue reference="UcV-lY-mKp"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -21,7 +21,6 @@
 		14BEBE7524BFA7A400AA6970 /* wilmingtonNC_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEBE7424BFA7A400AA6970 /* wilmingtonNC_ViewController.swift */; };
 		14BEBE7724BFA7B500AA6970 /* washingtonDC_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEBE7624BFA7B500AA6970 /* washingtonDC_ViewController.swift */; };
 		14BEBE7924BFA7C400AA6970 /* savannahGA_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEBE7824BFA7C400AA6970 /* savannahGA_ViewController.swift */; };
-		14BEBE7B24C0AA1300AA6970 /* Screen Shot 2020-07-16 at 11.29.23 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 14BEBE7A24C0AA1200AA6970 /* Screen Shot 2020-07-16 at 11.29.23 AM.png */; };
 		14BEBE7D24C0AA4E00AA6970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BEBE7C24C0AA4E00AA6970 /* LaunchScreen.storyboard */; };
 		14D5BBFA24C0DA0C00505AE6 /* fact_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D5BBF924C0DA0C00505AE6 /* fact_ViewController.swift */; };
 		14D5BBFC24C0DA2000505AE6 /* restaurants_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D5BBFB24C0DA2000505AE6 /* restaurants_ViewController.swift */; };
@@ -66,7 +65,6 @@
 		14BEBE7424BFA7A400AA6970 /* wilmingtonNC_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wilmingtonNC_ViewController.swift; sourceTree = "<group>"; };
 		14BEBE7624BFA7B500AA6970 /* washingtonDC_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = washingtonDC_ViewController.swift; sourceTree = "<group>"; };
 		14BEBE7824BFA7C400AA6970 /* savannahGA_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savannahGA_ViewController.swift; sourceTree = "<group>"; };
-		14BEBE7A24C0AA1200AA6970 /* Screen Shot 2020-07-16 at 11.29.23 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2020-07-16 at 11.29.23 AM.png"; path = "../../Screen Shot 2020-07-16 at 11.29.23 AM.png"; sourceTree = "<group>"; };
 		14BEBE7C24C0AA4E00AA6970 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14D5BBF924C0DA0C00505AE6 /* fact_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fact_ViewController.swift; sourceTree = "<group>"; };
 		14D5BBFB24C0DA2000505AE6 /* restaurants_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurants_ViewController.swift; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 				14BEBE7824BFA7C400AA6970 /* savannahGA_ViewController.swift */,
 				147F7CF524BCDF7C00D0F684 /* Assets.xcassets */,
 				14BEBE7C24C0AA4E00AA6970 /* LaunchScreen.storyboard */,
-				14BEBE7A24C0AA1200AA6970 /* Screen Shot 2020-07-16 at 11.29.23 AM.png */,
 				147F7CFA24BCDF7C00D0F684 /* Info.plist */,
 				147F7CF224BCDF7A00D0F684 /* invictus.xcdatamodeld */,
 			);
@@ -268,7 +265,6 @@
 				147F7CF624BCDF7C00D0F684 /* Assets.xcassets in Resources */,
 				147F7CF124BCDF7A00D0F684 /* Main.storyboard in Resources */,
 				14BEBE7D24C0AA4E00AA6970 /* LaunchScreen.storyboard in Resources */,
-				14BEBE7B24C0AA1300AA6970 /* Screen Shot 2020-07-16 at 11.29.23 AM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
