@@ -25,6 +25,7 @@
 		14BEBE7D24C0AA4E00AA6970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BEBE7C24C0AA4E00AA6970 /* LaunchScreen.storyboard */; };
 		14D5BBFA24C0DA0C00505AE6 /* fact_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D5BBF924C0DA0C00505AE6 /* fact_ViewController.swift */; };
 		14D5BBFC24C0DA2000505AE6 /* restaurants_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D5BBFB24C0DA2000505AE6 /* restaurants_ViewController.swift */; };
+		18DB559824C1CC0C00650FAE /* BeautyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB559724C1CC0C00650FAE /* BeautyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		14BEBE7C24C0AA4E00AA6970 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14D5BBF924C0DA0C00505AE6 /* fact_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fact_ViewController.swift; sourceTree = "<group>"; };
 		14D5BBFB24C0DA2000505AE6 /* restaurants_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurants_ViewController.swift; sourceTree = "<group>"; };
+		18DB559724C1CC0C00650FAE /* BeautyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				14BEBE7424BFA7A400AA6970 /* wilmingtonNC_ViewController.swift */,
 				14D5BBF924C0DA0C00505AE6 /* fact_ViewController.swift */,
 				14D5BBFB24C0DA2000505AE6 /* restaurants_ViewController.swift */,
+				18DB559724C1CC0C00650FAE /* BeautyViewController.swift */,
 				14BEBE7624BFA7B500AA6970 /* washingtonDC_ViewController.swift */,
 				14BEBE7824BFA7C400AA6970 /* savannahGA_ViewController.swift */,
 				147F7CF524BCDF7C00D0F684 /* Assets.xcassets */,
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				147F7D1F24BCE57400D0F684 /* AboutUs_ViewController.swift in Sources */,
+				18DB559824C1CC0C00650FAE /* BeautyViewController.swift in Sources */,
 				147F7CEA24BCDF7A00D0F684 /* AppDelegate.swift in Sources */,
 				14BEBE7724BFA7B500AA6970 /* washingtonDC_ViewController.swift in Sources */,
 				14D5BBFA24C0DA0C00505AE6 /* fact_ViewController.swift in Sources */,
